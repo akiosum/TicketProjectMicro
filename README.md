@@ -4,10 +4,10 @@ Este projeto é dedicado ao desenvolvimento de um sistema de tickets que permite
 
 ## Sumário 📑
 
-1. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-2. [Projetos Vinculados](#projetos-vinculados)
+1. [Tecnologias Utilizadas 🛠️](#tecnologias-utilizadas)
+2. [Projetos Vinculados 🔗](#projetos-vinculados)
 
-## Tecnologias Utilizadas 🛠️
+## Tecnologias Utilizadas
 
 Este projeto utiliza diversas tecnologias e conceitos avançados para proporcionar uma experiência robusta:
 
@@ -22,7 +22,7 @@ Este projeto utiliza diversas tecnologias e conceitos avançados para proporcion
 
 Explore essas tecnologias para mais detalhes sobre como elas contribuem para o projeto.
 
-## Projetos Vinculados 🔗
+## Projetos Vinculados
 
 Este projeto é parte de um ecossistema de microservices interconectados e utiliza bibliotecas auxiliares para facilitar o desenvolvimento:
 
