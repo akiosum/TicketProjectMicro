@@ -1,4 +1,5 @@
-﻿using FastResults.Results;
+﻿using EventMessages.Bus.Contracts;
+using FastResults.Results;
 using Mapster;
 using MediatR;
 using TicketProject.Application.Abstractions;
@@ -9,7 +10,8 @@ namespace TicketProject.Application.UseCases.TicketUseCase;
 
 public class CreateTicketUseCase(
     ISender sender,
-    ITicketRepository ticketRepository) :
+    ITicketRepository ticketRepository,
+    IEventBus eventBus) :
     BaseUseCase<CreateTicketRequest>(sender)
 {
     public override async Task<BaseResult> Handle(

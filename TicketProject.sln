@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketProject.Migration", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketProject.Shared", "src\TicketProject.Shared\TicketProject.Shared.csproj", "{624A54BF-BE8A-4924-9F29-FD8F7AF7364E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMessages.Bus", "..\EventMessages\EventMessages.Bus\EventMessages.Bus.csproj", "{5328AB68-6EB3-4120-B7FB-61A42D09AAD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,5 +49,9 @@ Global
 		{624A54BF-BE8A-4924-9F29-FD8F7AF7364E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{624A54BF-BE8A-4924-9F29-FD8F7AF7364E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{624A54BF-BE8A-4924-9F29-FD8F7AF7364E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5328AB68-6EB3-4120-B7FB-61A42D09AAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5328AB68-6EB3-4120-B7FB-61A42D09AAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5328AB68-6EB3-4120-B7FB-61A42D09AAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5328AB68-6EB3-4120-B7FB-61A42D09AAD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
