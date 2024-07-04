@@ -1,0 +1,6 @@
+﻿services:
+  ticketproject.presentation:
+    image: ticketproject.presentation
+    build:
+      context: .
+      dockerfile: src/TicketProject.Presentation/Dockerfile
